@@ -1014,45 +1014,45 @@ Wire Wire Line
 	1950 3850 1500 3850
 Wire Wire Line
 	1200 3850 750  3850
-Text Label 9000 4250 0    50   ~ 0
-DDR2_A13
-Text Label 9000 4150 0    50   ~ 0
-DDR2_A12
-Text Label 9000 4050 0    50   ~ 0
-DDR2_A11
-Text Label 9000 3950 0    50   ~ 0
-DDR2_A10
-Text Label 9000 3850 0    50   ~ 0
-DDR2_A9
-Text Label 9000 3750 0    50   ~ 0
-DDR2_A8
-Text Label 9000 3650 0    50   ~ 0
-DDR2_A7
-Text Label 9000 3550 0    50   ~ 0
-DDR2_A6
-Text Label 9000 3450 0    50   ~ 0
-DDR2_A5
-Text Label 9000 3350 0    50   ~ 0
-DDR2_A4
-Text Label 9000 3250 0    50   ~ 0
-DDR2_A3
-Text Label 9000 3150 0    50   ~ 0
-DDR2_A2
-Text Label 9000 5450 0    50   ~ 0
-DDR2_A1
-Text Label 9000 5350 0    50   ~ 0
-DDR2_A0
-Text Label 9000 5250 0    50   ~ 0
-DDR2_BA2
-Text Label 9000 5150 0    50   ~ 0
-DDR2_BA1
 Text Label 9000 5050 0    50   ~ 0
+DDR2_A13
+Text Label 9000 5350 0    50   ~ 0
+DDR2_A12
+Text Label 9000 4950 0    50   ~ 0
+DDR2_A11
+Text Label 9000 5250 0    50   ~ 0
+DDR2_A10
+Text Label 9000 4550 0    50   ~ 0
+DDR2_A9
+Text Label 9000 4250 0    50   ~ 0
+DDR2_A8
+Text Label 9000 5150 0    50   ~ 0
+DDR2_A7
+Text Label 9000 3850 0    50   ~ 0
+DDR2_A6
+Text Label 9000 4650 0    50   ~ 0
+DDR2_A5
+Text Label 9000 4050 0    50   ~ 0
+DDR2_A4
+Text Label 9000 5450 0    50   ~ 0
+DDR2_A3
+Text Label 9000 3650 0    50   ~ 0
+DDR2_A2
+Text Label 9000 4350 0    50   ~ 0
+DDR2_A1
+Text Label 9000 3550 0    50   ~ 0
+DDR2_A0
+Text Label 9000 3950 0    50   ~ 0
+DDR2_BA2
+Text Label 9000 4450 0    50   ~ 0
+DDR2_BA1
+Text Label 9000 3750 0    50   ~ 0
 DDR2_BA0
 Text Label 9000 4750 0    50   ~ 0
 DDR2_CK+
 Text Label 9000 4850 0    50   ~ 0
 DDR2_CK-
-Text Label 9000 4450 0    50   ~ 0
+Text Label 9000 3150 0    50   ~ 0
 DDR2_CKE
 Text Label 9000 1450 0    50   ~ 0
 DDR2_DM1
@@ -1098,13 +1098,13 @@ Text Label 9000 2450 0    50   ~ 0
 DDR2_DQS0-
 Text Label 9000 2350 0    50   ~ 0
 DDR2_DQS0+
-Text Label 9000 4350 0    50   ~ 0
+Text Label 9000 3250 0    50   ~ 0
 DDR2_ODT
-Text Label 9000 4650 0    50   ~ 0
+Text Label 9000 3450 0    50   ~ 0
 DDR2_CAS
-Text Label 9000 4950 0    50   ~ 0
+Text Label 9000 3350 0    50   ~ 0
 DDR2_RAS
-Text Label 9000 4550 0    50   ~ 0
+Text Label 9000 4150 0    50   ~ 0
 DDR2_WE
 Wire Wire Line
 	9000 2050 9550 2050
