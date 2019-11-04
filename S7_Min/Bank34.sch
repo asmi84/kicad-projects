@@ -1054,41 +1054,41 @@ Text Label 9000 4850 0    50   ~ 0
 DDR2_CK-
 Text Label 9000 4450 0    50   ~ 0
 DDR2_CKE
-Text Label 9000 850  0    50   ~ 0
-DDR2_DM1
-Text Label 9000 2050 0    50   ~ 0
-DDR2_DM0
-Text Label 9000 950  0    50   ~ 0
-DDR2_DQ15
-Text Label 9000 1050 0    50   ~ 0
-DDR2_DQ14
-Text Label 9000 1350 0    50   ~ 0
-DDR2_DQ13
 Text Label 9000 1450 0    50   ~ 0
-DDR2_DQ12
-Text Label 9000 1550 0    50   ~ 0
-DDR2_DQ11
+DDR2_DM1
+Text Label 9000 2550 0    50   ~ 0
+DDR2_DM0
+Text Label 9000 1850 0    50   ~ 0
+DDR2_DQ15
+Text Label 9000 1350 0    50   ~ 0
+DDR2_DQ14
 Text Label 9000 1650 0    50   ~ 0
+DDR2_DQ13
+Text Label 9000 950  0    50   ~ 0
+DDR2_DQ12
+Text Label 9000 1050 0    50   ~ 0
+DDR2_DQ11
+Text Label 9000 1550 0    50   ~ 0
 DDR2_DQ10
 Text Label 9000 1750 0    50   ~ 0
 DDR2_DQ9
-Text Label 9000 1850 0    50   ~ 0
+Text Label 9000 850  0    50   ~ 0
 DDR2_DQ8
-Text Label 9000 2150 0    50   ~ 0
-DDR2_DQ7
-Text Label 9000 2250 0    50   ~ 0
-DDR2_DQ6
-Text Label 9000 2550 0    50   ~ 0
-DDR2_DQ5
-Text Label 9000 2650 0    50   ~ 0
-DDR2_DQ4
-Text Label 9000 2750 0    50   ~ 0
-DDR2_DQ3
 Text Label 9000 2850 0    50   ~ 0
-DDR2_DQ2
+DDR2_DQ7
+Text Label 9000 2050 0    50   ~ 0
+DDR2_DQ6
+Text Label 9000 2750 0    50   ~ 0
+DDR2_DQ5
+Text Label 9000 2150 0    50   ~ 0
+DDR2_DQ4
 Text Label 9000 2950 0    50   ~ 0
-DDR2_DQ1
+DDR2_DQ3
+Text Label 9000 2250 0    50   ~ 0
+DDR2_DQ2
 Text Label 9000 3050 0    50   ~ 0
+DDR2_DQ1
+Text Label 9000 2650 0    50   ~ 0
 DDR2_DQ0
 Text Label 9000 1250 0    50   ~ 0
 DDR2_DQS1-
