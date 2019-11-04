@@ -1029,7 +1029,7 @@ U 1 1 5DC67809
 P 6750 3600
 F 0 "X1" H 6750 3925 50  0000 C CNN
 F 1 "DSC61XX" H 6750 3834 50  0000 C CNN
-F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering" H 6750 3600 50  0001 C CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 6750 3600 50  0001 C CNN
 F 3 "" H 6750 3600 50  0001 C CNN
 	1    6750 3600
 	1    0    0    -1  
