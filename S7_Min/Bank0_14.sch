@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -1784,4 +1784,52 @@ Wire Wire Line
 	8450 4300 8900 4300
 Wire Wire Line
 	8450 4400 8900 4400
+Text GLabel 8350 3400 0    50   Input ~ 0
+HDMI_D2+
+Text GLabel 8350 3500 0    50   Input ~ 0
+HDMI_D2-
+Text GLabel 8350 4600 0    50   Input ~ 0
+HDMI_D1+
+Text GLabel 8350 4700 0    50   Input ~ 0
+HDMI_D1-
+Text GLabel 8350 5000 0    50   Input ~ 0
+HDMI_D0+
+Text GLabel 8350 5100 0    50   Input ~ 0
+HDMI_D0-
+Text GLabel 8350 4800 0    50   Input ~ 0
+HDMI_CLK+
+Text GLabel 8350 4900 0    50   Input ~ 0
+HDMI_CLK-
+Text GLabel 8350 4500 0    50   Input ~ 0
+HDMI_CEC
+Text GLabel 8350 5300 0    50   Input ~ 0
+HDMI_SCL
+Text GLabel 8350 5500 0    50   Input ~ 0
+HDMI_SDA
+Text GLabel 8350 5600 0    50   Input ~ 0
+HDMI_HPD
+Wire Wire Line
+	8350 3400 8900 3400
+Wire Wire Line
+	8350 3500 8900 3500
+Wire Wire Line
+	8350 4500 8900 4500
+Wire Wire Line
+	8350 5300 8900 5300
+Wire Wire Line
+	8350 5500 8900 5500
+Wire Wire Line
+	8350 5600 8900 5600
+Wire Wire Line
+	8350 4600 8900 4600
+Wire Wire Line
+	8350 4700 8900 4700
+Wire Wire Line
+	8350 4800 8900 4800
+Wire Wire Line
+	8350 4900 8900 4900
+Wire Wire Line
+	8350 5000 8900 5000
+Wire Wire Line
+	8350 5100 8900 5100
 $EndSCHEMATC
