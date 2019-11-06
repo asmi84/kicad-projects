@@ -794,4 +794,9 @@ Wire Wire Line
 	2750 3900 3200 3900
 Wire Wire Line
 	2750 4100 3200 4100
+Wire Wire Line
+	10650 3000 10650 3100
+Wire Wire Line
+	10650 3100 10550 3100
+Connection ~ 10550 3100
 $EndSCHEMATC
