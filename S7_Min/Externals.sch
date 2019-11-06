@@ -20,7 +20,7 @@ U 1 1 5DC1FCC8
 P 10350 1900
 F 0 "J?" H 10780 1946 50  0000 L CNN
 F 1 "HDMI_A" H 10780 1855 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 10375 1900 50  0001 C CNN
+F 2 "my_parts:hdmi_type_a_10029449-111RLF" H 10375 1900 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 10375 1900 50  0001 C CNN
 	1    10350 1900
 	1    0    0    -1  
