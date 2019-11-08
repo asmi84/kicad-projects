@@ -800,42 +800,14 @@ Wire Wire Line
 	10650 3100 10550 3100
 Connection ~ 10550 3100
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J?
-U 1 1 5DDCB8CC
-P 9350 4900
-F 0 "J?" H 9400 5517 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 9400 5426 50  0000 C CNN
-F 2 "" H 9350 4900 50  0001 C CNN
-F 3 "~" H 9350 4900 50  0001 C CNN
-	1    9350 4900
+L Connector_Generic:Conn_02x12_Odd_Even J?
+U 1 1 5DC69EAB
+P 9950 4900
+F 0 "J?" H 10000 5617 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 10000 5526 50  0000 C CNN
+F 2 "" H 9950 4900 50  0001 C CNN
+F 3 "~" H 9950 4900 50  0001 C CNN
+	1    9950 4900
 	1    0    0    -1  
 $EndComp
-Text Label 8750 4500 0    50   ~ 0
-GPIO_0
-Text Label 10050 4500 2    50   ~ 0
-GPIO_1
-Text Label 8750 4600 0    50   ~ 0
-GPIO_2
-Text Label 10050 4600 2    50   ~ 0
-GPIO_3
-Text Label 8750 4700 0    50   ~ 0
-GPIO_4
-Text Label 10050 4700 2    50   ~ 0
-GPIO_5
-Text Label 8750 4800 0    50   ~ 0
-GPIO_6
-Text Label 10050 4800 2    50   ~ 0
-GPIO_7
-Text Label 8750 4900 0    50   ~ 0
-GPIO_8
-Text Label 10050 4900 2    50   ~ 0
-GPIO_9
-Text Label 8750 5000 0    50   ~ 0
-GPIO_10
-Text Label 10050 5000 2    50   ~ 0
-GPIO_11
-Text Label 8750 5100 0    50   ~ 0
-GPIO_12
-Text Label 10050 5100 2    50   ~ 0
-GPIO_13
 $EndSCHEMATC
