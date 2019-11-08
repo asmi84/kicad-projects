@@ -1,0 +1,92 @@
+NET   "ddr2_addr[0]"                           LOC = "J2"    |    ;
+
+NET   "ddr2_addr[10]"                          LOC = "M4"    |    ;
+
+NET   "ddr2_addr[11]"                          LOC = "L3"    |    ;
+
+NET   "ddr2_addr[12]"                          LOC = "P5"    |    ;
+
+NET   "ddr2_addr[13]"                          LOC = "L2"    |    ;
+
+NET   "ddr2_addr[1]"                           LOC = "M3"    |    ;
+
+NET   "ddr2_addr[2]"                           LOC = "J1"    |    ;
+
+NET   "ddr2_addr[3]"                           LOC = "N4"    |    ;
+
+NET   "ddr2_addr[4]"                           LOC = "J3"    |    ;
+
+NET   "ddr2_addr[5]"                           LOC = "N1"    |    ;
+
+NET   "ddr2_addr[6]"                           LOC = "K3"    |    ;
+
+NET   "ddr2_addr[7]"                           LOC = "M5"    |    ;
+
+NET   "ddr2_addr[8]"                           LOC = "L1"    |    ;
+
+NET   "ddr2_addr[9]"                           LOC = "P2"    |    ;
+
+NET   "ddr2_ba[0]"                             LOC = "K4"    |    ;
+
+NET   "ddr2_ba[1]"                             LOC = "M2"    |    ;
+
+NET   "ddr2_ba[2]"                             LOC = "J4"    |    ;
+
+NET   "ddr2_cas_n"                             LOC = "H1"    |    ;
+
+NET   "ddr2_ck_n[0]"                           LOC = "P3"    |    ;
+
+NET   "ddr2_ck_p[0]"                           LOC = "P4"    |    ;
+
+NET   "ddr2_cke[0]"                            LOC = "H4"    |    ;
+
+NET   "ddr2_dm[0]"                             LOC = "E2"    |    ;
+
+NET   "ddr2_dm[1]"                             LOC = "A5"    |    ;
+
+NET   "ddr2_dq[0]"                             LOC = "D2"    |    ;
+
+NET   "ddr2_dq[10]"                            LOC = "B2"    |    ;
+
+NET   "ddr2_dq[11]"                            LOC = "A3"    |    ;
+
+NET   "ddr2_dq[12]"                            LOC = "A4"    |    ;
+
+NET   "ddr2_dq[13]"                            LOC = "B1"    |    ;
+
+NET   "ddr2_dq[14]"                            LOC = "B5"    |    ;
+
+NET   "ddr2_dq[15]"                            LOC = "C4"    |    ;
+
+NET   "ddr2_dq[1]"                             LOC = "F4"    |    ;
+
+NET   "ddr2_dq[2]"                             LOC = "F2"    |    ;
+
+NET   "ddr2_dq[3]"                             LOC = "G4"    |    ;
+
+NET   "ddr2_dq[4]"                             LOC = "F3"    |    ;
+
+NET   "ddr2_dq[5]"                             LOC = "D1"    |    ;
+
+NET   "ddr2_dq[6]"                             LOC = "D4"    |    ;
+
+NET   "ddr2_dq[7]"                             LOC = "C1"    |    ;
+
+NET   "ddr2_dq[8]"                             LOC = "C3"    |    ;
+
+NET   "ddr2_dq[9]"                             LOC = "C5"    |    ;
+
+NET   "ddr2_dqs_n[0]"                          LOC = "F1"    |    ;
+
+NET   "ddr2_dqs_n[1]"                          LOC = "A2"    |    ;
+
+NET   "ddr2_dqs_p[0]"                          LOC = "G1"    |    ;
+
+NET   "ddr2_dqs_p[1]"                          LOC = "B3"    |    ;
+
+NET   "ddr2_odt[0]"                            LOC = "H3"    |    ;
+
+NET   "ddr2_ras_n"                             LOC = "H2"    |    ;
+
+NET   "ddr2_we_n"                              LOC = "M1"    |    ;
+
