@@ -1163,8 +1163,8 @@ Wire Wire Line
 	6750 1850 6350 1850
 Connection ~ 6350 1850
 Wire Wire Line
-	8450 5400 8900 5400
-Text Label 8450 5400 0    50   ~ 0
+	8450 3400 8900 3400
+Text Label 8450 3400 0    50   ~ 0
 SYSRESET
 $Comp
 L Device:Q_DUAL_NMOS_S1G1D2S2G2D1 Q2
@@ -1784,9 +1784,9 @@ Wire Wire Line
 	8450 4300 8900 4300
 Wire Wire Line
 	8450 4400 8900 4400
-Text GLabel 8350 3400 0    50   Input ~ 0
+Text GLabel 8350 5400 0    50   Input ~ 0
 HDMI_D2+
-Text GLabel 8350 3500 0    50   Input ~ 0
+Text GLabel 8350 5500 0    50   Input ~ 0
 HDMI_D2-
 Text GLabel 8350 4600 0    50   Input ~ 0
 HDMI_D1+
@@ -1804,20 +1804,20 @@ Text GLabel 8350 4500 0    50   Input ~ 0
 HDMI_CEC
 Text GLabel 8350 5300 0    50   Input ~ 0
 HDMI_SCL
-Text GLabel 8350 5500 0    50   Input ~ 0
+Text GLabel 8350 3500 0    50   Input ~ 0
 HDMI_SDA
 Text GLabel 8350 5600 0    50   Input ~ 0
 HDMI_HPD
 Wire Wire Line
-	8350 3400 8900 3400
+	8350 5400 8900 5400
 Wire Wire Line
-	8350 3500 8900 3500
+	8350 5500 8900 5500
 Wire Wire Line
 	8350 4500 8900 4500
 Wire Wire Line
 	8350 5300 8900 5300
 Wire Wire Line
-	8350 5500 8900 5500
+	8350 3500 8900 3500
 Wire Wire Line
 	8350 5600 8900 5600
 Wire Wire Line
@@ -1832,4 +1832,8 @@ Wire Wire Line
 	8350 5000 8900 5000
 Wire Wire Line
 	8350 5100 8900 5100
+Text Label 1600 3600 0    50   ~ 0
+FPGA_DONE
+Wire Wire Line
+	1600 3600 2100 3600
 $EndSCHEMATC

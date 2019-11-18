@@ -800,12 +800,12 @@ Wire Wire Line
 	10650 3100 10550 3100
 Connection ~ 10550 3100
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J?
+L Connector_Generic:Conn_02x12_Odd_Even J4
 U 1 1 5DC69EAB
 P 9950 4900
-F 0 "J?" H 10000 5617 50  0000 C CNN
+F 0 "J4" H 10000 5617 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 10000 5526 50  0000 C CNN
-F 2 "" H 9950 4900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 9950 4900 50  0001 C CNN
 F 3 "~" H 9950 4900 50  0001 C CNN
 	1    9950 4900
 	1    0    0    -1  
