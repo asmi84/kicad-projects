@@ -1784,56 +1784,156 @@ Wire Wire Line
 	8450 4300 8900 4300
 Wire Wire Line
 	8450 4400 8900 4400
-Text GLabel 8350 5400 0    50   Input ~ 0
-HDMI_D2+
-Text GLabel 8350 5500 0    50   Input ~ 0
-HDMI_D2-
-Text GLabel 8350 4600 0    50   Input ~ 0
-HDMI_D1+
-Text GLabel 8350 4700 0    50   Input ~ 0
-HDMI_D1-
 Text GLabel 8350 5000 0    50   Input ~ 0
-HDMI_D0+
+HDMI_D2+
 Text GLabel 8350 5100 0    50   Input ~ 0
+HDMI_D2-
+Text GLabel 8350 5400 0    50   Input ~ 0
+HDMI_D1+
+Text GLabel 8350 5500 0    50   Input ~ 0
+HDMI_D1-
+Text GLabel 8350 5200 0    50   Input ~ 0
+HDMI_D0+
+Text GLabel 8350 5300 0    50   Input ~ 0
 HDMI_D0-
-Text GLabel 8350 4800 0    50   Input ~ 0
+Text GLabel 8350 4600 0    50   Input ~ 0
 HDMI_CLK+
-Text GLabel 8350 4900 0    50   Input ~ 0
+Text GLabel 8350 4700 0    50   Input ~ 0
 HDMI_CLK-
 Text GLabel 8350 4500 0    50   Input ~ 0
 HDMI_CEC
-Text GLabel 8350 5300 0    50   Input ~ 0
+Text GLabel 8350 4900 0    50   Input ~ 0
 HDMI_SCL
-Text GLabel 8350 3500 0    50   Input ~ 0
+Text GLabel 8350 4800 0    50   Input ~ 0
 HDMI_SDA
 Text GLabel 8350 5600 0    50   Input ~ 0
 HDMI_HPD
+Wire Wire Line
+	8350 5000 8900 5000
+Wire Wire Line
+	8350 5100 8900 5100
+Wire Wire Line
+	8350 4500 8900 4500
+Wire Wire Line
+	8350 4900 8900 4900
+Wire Wire Line
+	8350 4800 8900 4800
+Wire Wire Line
+	8350 5600 8900 5600
 Wire Wire Line
 	8350 5400 8900 5400
 Wire Wire Line
 	8350 5500 8900 5500
 Wire Wire Line
-	8350 4500 8900 4500
-Wire Wire Line
-	8350 5300 8900 5300
-Wire Wire Line
-	8350 3500 8900 3500
-Wire Wire Line
-	8350 5600 8900 5600
-Wire Wire Line
 	8350 4600 8900 4600
 Wire Wire Line
 	8350 4700 8900 4700
 Wire Wire Line
-	8350 4800 8900 4800
+	8350 5200 8900 5200
 Wire Wire Line
-	8350 4900 8900 4900
-Wire Wire Line
-	8350 5000 8900 5000
-Wire Wire Line
-	8350 5100 8900 5100
+	8350 5300 8900 5300
 Text Label 1600 3600 0    50   ~ 0
 FPGA_DONE
 Wire Wire Line
 	1600 3600 2100 3600
+$Comp
+L Device:R R?
+U 1 1 5DDDEDB7
+P 5550 6150
+AR Path="/5D9667D8/5DDDEDB7" Ref="R?"  Part="1" 
+AR Path="/5E35D7C2/5DDDEDB7" Ref="R59"  Part="1" 
+F 0 "R59" V 5650 6150 50  0000 C CNN
+F 1 "680" V 5550 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5480 6150 50  0001 C CNN
+F 3 "~" H 5550 6150 50  0001 C CNN
+	1    5550 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DDDEDBD
+P 5550 5750
+AR Path="/5D9667D8/5DDDEDBD" Ref="D?"  Part="1" 
+AR Path="/5E35D7C2/5DDDEDBD" Ref="D5"  Part="1" 
+F 0 "D5" H 5500 5650 50  0000 L CNN
+F 1 "FPGA_DONE" H 5300 5850 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5550 5750 50  0001 C CNN
+F 3 "~" H 5550 5750 50  0001 C CNN
+	1    5550 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5DE1428E
+P 5450 6600
+AR Path="/5D9667D8/5DE1428E" Ref="Q?"  Part="1" 
+AR Path="/5E35D7C2/5DE1428E" Ref="Q5"  Part="1" 
+F 0 "Q5" H 5656 6646 50  0000 L CNN
+F 1 "DMN2020L" H 5656 6555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 6700 50  0001 C CNN
+F 3 "~" H 5450 6600 50  0001 C CNN
+	1    5450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE14294
+P 5550 6900
+AR Path="/5D9667D8/5DE14294" Ref="#PWR?"  Part="1" 
+AR Path="/5E35D7C2/5DE14294" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 5550 6650 50  0001 C CNN
+F 1 "GND" H 5555 6727 50  0000 C CNN
+F 2 "" H 5550 6900 50  0001 C CNN
+F 3 "" H 5550 6900 50  0001 C CNN
+	1    5550 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 6900 5550 6800
+$Comp
+L Device:R R?
+U 1 1 5DE2EBE1
+P 5150 6350
+AR Path="/5D9667D8/5DE2EBE1" Ref="R?"  Part="1" 
+AR Path="/5E35D7C2/5DE2EBE1" Ref="R58"  Part="1" 
+F 0 "R58" V 5250 6350 50  0000 C CNN
+F 1 "330" V 5150 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 6350 50  0001 C CNN
+F 3 "~" H 5150 6350 50  0001 C CNN
+	1    5150 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 6400 5550 6300
+Wire Wire Line
+	5550 6000 5550 5900
+Wire Wire Line
+	5250 6600 5150 6600
+Wire Wire Line
+	5150 6600 5150 6500
+Text Label 4700 6600 0    50   ~ 0
+FPGA_DONE
+Wire Wire Line
+	4700 6600 5150 6600
+Connection ~ 5150 6600
+Wire Wire Line
+	5550 5600 5550 5500
+Wire Wire Line
+	5550 5500 5150 5500
+Wire Wire Line
+	5150 5500 5150 6200
+$Comp
+L power:+3V3 #PWR074
+U 1 1 5DEA6D27
+P 5550 5400
+F 0 "#PWR074" H 5550 5250 50  0001 C CNN
+F 1 "+3V3" V 5565 5528 50  0000 L CNN
+F 2 "" H 5550 5400 50  0001 C CNN
+F 3 "" H 5550 5400 50  0001 C CNN
+	1    5550 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5400 5550 5500
+Connection ~ 5550 5500
 $EndSCHEMATC
