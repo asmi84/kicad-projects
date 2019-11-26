@@ -1800,9 +1800,9 @@ Text GLabel 8350 4600 0    50   Input ~ 0
 HDMI_CLK+
 Text GLabel 8350 4700 0    50   Input ~ 0
 HDMI_CLK-
-Text GLabel 8350 4500 0    50   Input ~ 0
+Text GLabel 8350 3800 0    50   Input ~ 0
 HDMI_CEC
-Text GLabel 8350 4900 0    50   Input ~ 0
+Text GLabel 8350 3600 0    50   Input ~ 0
 HDMI_SCL
 Text GLabel 8350 4800 0    50   Input ~ 0
 HDMI_SDA
@@ -1813,9 +1813,9 @@ Wire Wire Line
 Wire Wire Line
 	8350 5100 8900 5100
 Wire Wire Line
-	8350 4500 8900 4500
+	8350 3800 8900 3800
 Wire Wire Line
-	8350 4900 8900 4900
+	8350 3600 8900 3600
 Wire Wire Line
 	8350 4800 8900 4800
 Wire Wire Line

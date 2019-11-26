@@ -166,17 +166,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 1100 1300 1100
 $Comp
-L Device:C_Small C13
-U 1 1 5DAA575F
-P 3700 1350
-F 0 "C13" V 3600 1350 50  0000 C CNN
-F 1 "0.1 uF" V 3800 1350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 1350 50  0001 C CNN
-F 3 "~" H 3700 1350 50  0001 C CNN
-	1    3700 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:L L1
 U 1 1 5DAA9B70
 P 4150 1550
@@ -2429,4 +2418,109 @@ Wire Wire Line
 	2300 4800 2300 4900
 Wire Wire Line
 	2700 4800 2700 4900
+$Comp
+L power:+12V #PWR0119
+U 1 1 5DE52CDB
+P 2300 750
+F 0 "#PWR0119" H 2300 600 50  0001 C CNN
+F 1 "+12V" H 2315 923 50  0000 C CNN
+F 2 "" H 2300 750 50  0001 C CNN
+F 3 "" H 2300 750 50  0001 C CNN
+	1    2300 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 750  2300 850 
+Connection ~ 2300 850 
+$Comp
+L Device:C_Small C13
+U 1 1 5DAA575F
+P 3700 1350
+F 0 "C13" V 3600 1350 50  0000 C CNN
+F 1 "0.1 uF" V 3800 1350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 1350 50  0001 C CNN
+F 3 "~" H 3700 1350 50  0001 C CNN
+	1    3700 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5DE930AC
+P 7400 5000
+F 0 "H1" V 7354 5150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7445 5150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7400 5000 50  0001 C CNN
+F 3 "~" H 7400 5000 50  0001 C CNN
+	1    7400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DE94239
+P 7400 5200
+F 0 "H2" V 7354 5350 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7445 5350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7400 5200 50  0001 C CNN
+F 3 "~" H 7400 5200 50  0001 C CNN
+	1    7400 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5DE946C5
+P 7400 5400
+F 0 "H3" V 7354 5550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7445 5550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7400 5400 50  0001 C CNN
+F 3 "~" H 7400 5400 50  0001 C CNN
+	1    7400 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5DE94B10
+P 7400 5600
+F 0 "H4" V 7354 5750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7445 5750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7400 5600 50  0001 C CNN
+F 3 "~" H 7400 5600 50  0001 C CNN
+	1    7400 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR076
+U 1 1 5DE94F0A
+P 7200 5700
+F 0 "#PWR076" H 7200 5450 50  0001 C CNN
+F 1 "GND" H 7205 5527 50  0000 C CNN
+F 2 "" H 7200 5700 50  0001 C CNN
+F 3 "" H 7200 5700 50  0001 C CNN
+	1    7200 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5000 7200 5000
+Wire Wire Line
+	7200 5000 7200 5200
+Wire Wire Line
+	7300 5600 7200 5600
+Connection ~ 7200 5600
+Wire Wire Line
+	7200 5600 7200 5700
+Wire Wire Line
+	7300 5400 7200 5400
+Connection ~ 7200 5400
+Wire Wire Line
+	7200 5400 7200 5600
+Wire Wire Line
+	7300 5200 7200 5200
+Connection ~ 7200 5200
+Wire Wire Line
+	7200 5200 7200 5400
+Text Label 3550 1550 0    50   ~ 0
+SW1
+Text Label 3600 2350 0    50   ~ 0
+SW2
+Text Label 3600 3150 0    50   ~ 0
+SW3
 $EndSCHEMATC
