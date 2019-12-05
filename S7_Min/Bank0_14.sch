@@ -950,21 +950,21 @@ Wire Wire Line
 	6450 1300 6900 1300
 Wire Wire Line
 	6450 1400 6900 1400
-Text Label 5700 1100 0    50   ~ 0
-SPI_DQ0
-Text Label 5700 1200 0    50   ~ 0
-SPI_DQ1
 Text Label 5700 1300 0    50   ~ 0
-SPI_DQ2
+SPI_DQ0
 Text Label 5700 1400 0    50   ~ 0
+SPI_DQ1
+Text Label 5700 1100 0    50   ~ 0
+SPI_DQ2
+Text Label 5700 1200 0    50   ~ 0
 SPI_DQ3
-Text Label 6900 1100 2    50   ~ 0
-SPI_F_DQ0
-Text Label 6900 1200 2    50   ~ 0
-SPI_F_DQ1
 Text Label 6900 1300 2    50   ~ 0
-SPI_F_DQ2
+SPI_F_DQ0
 Text Label 6900 1400 2    50   ~ 0
+SPI_F_DQ1
+Text Label 6900 1100 2    50   ~ 0
+SPI_F_DQ2
+Text Label 6900 1200 2    50   ~ 0
 SPI_F_DQ3
 Text Label 8450 800  0    50   ~ 0
 SPI_F_DQ0
