@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name my_parts)(type KiCad)(uri ${KIPRJMOD}/../../kicad-library/footprints/my_parts.pretty)(options "")(descr ""))
 )
