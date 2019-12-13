@@ -799,14 +799,182 @@ Wire Wire Line
 	10650 3100 10550 3100
 Connection ~ 10550 3100
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J4
-U 1 1 5DC69EAB
-P 9950 4900
-F 0 "J4" H 10000 5617 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 10000 5526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 9950 4900 50  0001 C CNN
-F 3 "~" H 9950 4900 50  0001 C CNN
-	1    9950 4900
+L Connector_Generic:Conn_02x15_Odd_Even J4
+U 1 1 5E2338CD
+P 8850 5100
+F 0 "J4" H 8900 6017 50  0000 C CNN
+F 1 "Conn_02x15_Odd_Even" H 8900 5926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 8850 5100 50  0001 C CNN
+F 3 "~" H 8850 5100 50  0001 C CNN
+	1    8850 5100
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR089
+U 1 1 5E234F5A
+P 9250 4400
+F 0 "#PWR089" H 9250 4150 50  0001 C CNN
+F 1 "GND" H 9255 4227 50  0000 C CNN
+F 2 "" H 9250 4400 50  0001 C CNN
+F 3 "" H 9250 4400 50  0001 C CNN
+	1    9250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR084
+U 1 1 5E235C43
+P 8550 4400
+F 0 "#PWR084" H 8550 4250 50  0001 C CNN
+F 1 "+3V3" V 8565 4528 50  0000 L CNN
+F 2 "" H 8550 4400 50  0001 C CNN
+F 3 "" H 8550 4400 50  0001 C CNN
+	1    8550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR086
+U 1 1 5E2368CD
+P 8550 5700
+F 0 "#PWR086" H 8550 5550 50  0001 C CNN
+F 1 "+3V3" V 8565 5828 50  0000 L CNN
+F 2 "" H 8550 5700 50  0001 C CNN
+F 3 "" H 8550 5700 50  0001 C CNN
+	1    8550 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR090
+U 1 1 5E23766C
+P 9350 5800
+F 0 "#PWR090" H 9350 5550 50  0001 C CNN
+F 1 "GND" H 9355 5627 50  0000 C CNN
+F 2 "" H 9350 5800 50  0001 C CNN
+F 3 "" H 9350 5800 50  0001 C CNN
+	1    9350 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR088
+U 1 1 5E237856
+P 8550 5800
+F 0 "#PWR088" H 8550 5650 50  0001 C CNN
+F 1 "+5V" V 8550 6050 50  0000 C CNN
+F 2 "" H 8550 5800 50  0001 C CNN
+F 3 "" H 8550 5800 50  0001 C CNN
+	1    8550 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 4400 8650 4400
+Wire Wire Line
+	9150 4400 9250 4400
+Wire Wire Line
+	9150 5700 9250 5700
+Wire Wire Line
+	9150 5800 9250 5800
+Wire Wire Line
+	8550 5700 8650 5700
+Wire Wire Line
+	8550 5800 8650 5800
+Text GLabel 8550 4500 0    50   Input ~ 0
+GPIO_0
+Text GLabel 9250 4500 2    50   Input ~ 0
+GPIO_1
+Text GLabel 8550 4600 0    50   Input ~ 0
+GPIO_2
+Text GLabel 9250 4600 2    50   Input ~ 0
+GPIO_3
+Text GLabel 8550 4700 0    50   Input ~ 0
+GPIO_4
+Text GLabel 9250 4700 2    50   Input ~ 0
+GPIO_5
+Text GLabel 8550 4800 0    50   Input ~ 0
+GPIO_6
+Text GLabel 9250 4800 2    50   Input ~ 0
+GPIO_7
+Text GLabel 8550 4900 0    50   Input ~ 0
+GPIO_8
+Text GLabel 9250 4900 2    50   Input ~ 0
+GPIO_9
+Text GLabel 8550 5000 0    50   Input ~ 0
+GPIO_10
+Text GLabel 9250 5000 2    50   Input ~ 0
+GPIO_11
+Text GLabel 8550 5100 0    50   Input ~ 0
+GPIO_12
+Text GLabel 9250 5100 2    50   Input ~ 0
+GPIO_13
+Text GLabel 8550 5200 0    50   Input ~ 0
+GPIO_14
+Text GLabel 9250 5200 2    50   Input ~ 0
+GPIO_15
+Text GLabel 8550 5300 0    50   Input ~ 0
+GPIO_16
+Text GLabel 9250 5300 2    50   Input ~ 0
+GPIO_17
+Text GLabel 8550 5400 0    50   Input ~ 0
+GPIO_18
+Text GLabel 9250 5400 2    50   Input ~ 0
+GPIO_19
+Text GLabel 8550 5500 0    50   Input ~ 0
+GPIO_20
+Text GLabel 9250 5500 2    50   Input ~ 0
+GPIO_21
+Text GLabel 8550 5600 0    50   Input ~ 0
+GPIO_22
+Text GLabel 9250 5600 2    50   Input ~ 0
+GPIO_23
+Wire Wire Line
+	8550 4500 8650 4500
+Wire Wire Line
+	8550 4600 8650 4600
+Wire Wire Line
+	8550 4700 8650 4700
+Wire Wire Line
+	8550 4800 8650 4800
+Wire Wire Line
+	8550 4900 8650 4900
+Wire Wire Line
+	8550 5000 8650 5000
+Wire Wire Line
+	8550 5100 8650 5100
+Wire Wire Line
+	8550 5200 8650 5200
+Wire Wire Line
+	8550 5300 8650 5300
+Wire Wire Line
+	8550 5400 8650 5400
+Wire Wire Line
+	8550 5500 8650 5500
+Wire Wire Line
+	8550 5600 8650 5600
+Wire Wire Line
+	9150 4500 9250 4500
+Wire Wire Line
+	9150 4600 9250 4600
+Wire Wire Line
+	9150 4700 9250 4700
+Wire Wire Line
+	9150 4800 9250 4800
+Wire Wire Line
+	9150 4900 9250 4900
+Wire Wire Line
+	9150 5000 9250 5000
+Wire Wire Line
+	9150 5100 9250 5100
+Wire Wire Line
+	9150 5200 9250 5200
+Wire Wire Line
+	9150 5300 9250 5300
+Wire Wire Line
+	9150 5400 9250 5400
+Wire Wire Line
+	9150 5500 9250 5500
+Wire Wire Line
+	9150 5600 9250 5600
+Wire Wire Line
+	9250 5700 9250 5800
+Wire Wire Line
+	9350 5800 9250 5800
+Connection ~ 9250 5800
 $EndSCHEMATC
