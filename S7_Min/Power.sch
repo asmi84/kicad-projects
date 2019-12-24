@@ -628,12 +628,12 @@ Wire Wire Line
 $Comp
 L Device:C_Small C12
 U 1 1 5DA98C61
-P 2200 3350
-F 0 "C12" V 2100 3350 50  0000 C CNN
-F 1 "1 uF" V 2300 3350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 3350 50  0001 C CNN
-F 3 "~" H 2200 3350 50  0001 C CNN
-	1    2200 3350
+P 2200 3250
+F 0 "C12" V 2100 3250 50  0000 C CNN
+F 1 "1 uF" V 2300 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -648,15 +648,9 @@ F 3 "" H 2000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3350 2300 3350
-Wire Wire Line
-	2400 3550 2000 3550
+	2400 3550 2300 3550
 Wire Wire Line
 	2000 3550 2000 3650
-Wire Wire Line
-	2100 3350 2000 3350
-Wire Wire Line
-	2000 3350 2000 3550
 Connection ~ 2000 3550
 $Comp
 L Device:C_Small C10
@@ -2654,4 +2648,17 @@ Wire Wire Line
 Connection ~ 5050 4150
 Wire Wire Line
 	5050 4150 5250 4150
+Wire Wire Line
+	2000 3250 2100 3250
+Wire Wire Line
+	2000 3250 2000 3550
+Wire Wire Line
+	2400 3250 2300 3250
+Wire Wire Line
+	2400 3450 2300 3450
+Wire Wire Line
+	2300 3450 2300 3550
+Connection ~ 2300 3550
+Wire Wire Line
+	2300 3550 2000 3550
 $EndSCHEMATC
