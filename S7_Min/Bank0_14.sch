@@ -1846,7 +1846,7 @@ F 1 "FPGA_DONE" H 5300 5850 50  0000 L CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 5550 5750 50  0001 C CNN
 F 3 "~" H 5550 5750 50  0001 C CNN
 	1    5550 5750
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GSD Q?
@@ -2059,4 +2059,14 @@ Wire Wire Line
 	8350 4400 8900 4400
 Wire Wire Line
 	8350 4500 8900 4500
+Text Notes 3500 2550 0    50   ~ 0
+See Xilinx user guide UG908,\nAppendix C for supported \nQSPI memory chips.\nI use S25FL128LAGMFI010 (128 Mbit)
+Wire Notes Line
+	3450 2200 5000 2200
+Wire Notes Line
+	5000 2200 5000 2600
+Wire Notes Line
+	5000 2600 3450 2600
+Wire Notes Line
+	3450 2600 3450 2200
 $EndSCHEMATC
