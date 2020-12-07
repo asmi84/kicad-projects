@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name my_parts)(type Legacy)(uri C:/Personal/Src/github/kicad-library/symbols/my_parts.lib)(options "")(descr ""))
+)
